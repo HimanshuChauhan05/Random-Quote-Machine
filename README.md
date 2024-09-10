@@ -1,8 +1,12 @@
-# React + Vite
+Random Quote Machine
+A React-based application that displays a random quote from an API and allows users to tweet the current quote. Each time a new quote is generated, the background and button colors dynamically change.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Fetch random quotes from the Quotable API.
+Display quote text and author.
+Generate a new quote and change the background and button colors with each click.
+Tweet the current quote using Twitter's intent API.
+Technologies Used
+React: Frontend framework for building the user interface.
+Quotable API: Source of random quotes.
+CSS: For styling the application and smooth color transitions.
