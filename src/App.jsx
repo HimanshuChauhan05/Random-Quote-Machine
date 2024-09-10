@@ -29,9 +29,6 @@ function App() {
         <p id="text">"{quote}"</p>
         <p id="author">- {author}</p>
         <div className="buttons">
-          <button id="new-quote" onClick={handleNewQuote}>
-            New Quote
-          </button>
           <a
             id="tweet-quote"
             href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
@@ -42,6 +39,10 @@ function App() {
           >
             Tweet
           </a>
+
+          <button id="new-quote" onClick={handleNewQuote}>
+            New Quote
+          </button>
         </div>
       </div>
     </div>
